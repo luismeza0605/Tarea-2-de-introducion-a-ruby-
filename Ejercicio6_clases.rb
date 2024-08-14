@@ -1,9 +1,9 @@
 class Palindromo
   def verificar_frase(frase)
     if frase == frase.reverse
-      puts "La frase#{frase}ES palindromo"
+      puts "La frase#{frase} Es palindromo"
     else
-      puts "La frase#{frase}No es palindromo"
+      puts "La frase#{frase} No es palindromo"
     end
   end
 end
