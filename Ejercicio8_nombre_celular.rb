@@ -29,8 +29,9 @@ class DatosUsuario
 
       if indice
         puts "El Numero de telefono de #{nombre}: #{@celulares[indice]}"
+        puts"\n"
       else 
-        puts "El Numero no se encuentra"
+        puts "\nEl Numero no se encuentra"
     end
   end
     
