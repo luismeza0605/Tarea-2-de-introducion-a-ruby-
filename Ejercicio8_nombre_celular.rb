@@ -35,9 +35,14 @@ class DatosUsuario
   end
     
 end
-dstos_usuarios = DatosUsuario.new
-dstos_usuarios.inicializar
-dstos_usuarios.mostrar
-puts "Ingrese un nombre"
-nombre = gets.chomp
-dstos_usuarios.buscar_numero(nombre)
+datos_usuarios = DatosUsuario.new
+datos_usuarios.inicializar
+loop do
+  datos_usuarios.mostrar
+  puts "Ingrese un nombre (o presione Enter para salir):"
+  nombre = gets.chomp
+
+  break if nombre.empty? 
+
+  datos_usuarios.buscar_numero(nombre)
+end
