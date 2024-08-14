@@ -12,5 +12,5 @@ end
 
 user = {}
 user = {:name=> "Luis Miguel ", :email=> "luismeza1358879@gmail.com"}
-puts "\n Nombre de Usuario:#{user[:name]}"
+puts "\nNombre de Usuario:#{user[:name]}"
 puts "\ncorreo:#{user[:email]}"
