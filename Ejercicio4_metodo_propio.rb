@@ -2,7 +2,7 @@
 #Metodo con parametros
 
 def edad(anio_naciento, anio_actual)
-  edad =anio_actual.to_i-anio_naciento,.to_i
+  edad =anio_actual.to_i-anio_naciento.to_i
   puts "\nTu edad actual es #{edad}anios"
 end
 #Metodo sin parametro
